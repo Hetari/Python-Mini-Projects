@@ -1,5 +1,5 @@
 from data import *
-from os import system
+import os
 
 # coins convertor to $
 def total(quarter, dime, nickel, penny):
@@ -21,9 +21,9 @@ def available():
 
 
 print("--------Welcome to Coffee Machine ---------")
-
+clear_screen = 'cls' if os.name == 'nt' else 'clear'
 while(True):
-    start = input("What would you like? (espresso, latte, cappuccino) or to view the report (report): ")
+    start = input("What would you like? (espresso, latte, cappuccino) or to view the report (report): ") or 'report'
 
     if start == 'report':
         print(MENU[start])
@@ -36,7 +36,7 @@ while(True):
     else:
         # check the recourses
         if available() == 0:
-            system('cls')
+            os.system()
             if bool0 == 0:
                 print("There is no enough water in the tank!")
                 pass
@@ -48,7 +48,7 @@ while(True):
                 pass
             break
         
-        system('cls')
+        os.system('clear_screen')
         print("Please insert coins")
         quarters = eval(input("How many quarters?: "))
         dimes = eval(input("How many dimes?: "))
@@ -62,7 +62,7 @@ while(True):
         coffee = (coffee - MENU[start]["ingredients"]["coffee"])
         money = format((total_money - MENU[start]["ingredients"]["price"]), ".1f")
         
-        system('cls')
+        os.system('clear_screen')
         print("Here is $" + money, "in change.")
         pass
     pass
