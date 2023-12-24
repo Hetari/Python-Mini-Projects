@@ -18,7 +18,6 @@ If you have a small Python project that you would like to add to this repository
 Once your pull request is reviewed and merged, your project will be added to the main repository!
 
 ## Contributors
-
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
