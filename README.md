@@ -1,7 +1,7 @@
 # Python Mini Projects
 Welcome to this collection of small Python projects! In this repository, you will find a variety of mini projects that are designed to help you improve your skills in Python programming.
 
-## Contributing
+## Add a new project or editting some code
 If you have a small Python project that you would like to add to this repository, we welcome your contributions! Here's how you can get started:
 
 1. Fork this repository by clicking the "Fork" button in the top right corner of this page.
@@ -16,3 +16,14 @@ If you have a small Python project that you would like to add to this repository
 10. Create a pull request by clicking the "New pull request" button on the original repository page and selecting your branch.
 
 Once your pull request is reviewed and merged, your project will be added to the main repository!
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
